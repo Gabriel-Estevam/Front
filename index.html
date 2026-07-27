@@ -4,46 +4,69 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu Primeiro site</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/format-font.css">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <!-- Conteúdo de seccionamento -->
-         <nav>
-            <ul>
-                <li><img src="images/charm_menu-hamburger.png" width="40" height="40" alt="menu"></li>
-                <li> 
-                    <a href="pages/menu.html">Menu</a>
-                </li>
-                <li> 
-                    <a href="#">Team</a>
-                </li>
-            </ul>
-
-            <div>
-                Cibo gustos
+         <nav class="nav">
+            <div class="container">
+                <div class="menu">
+                    <ul class="sub-menu">
+                        <li>
+                            <img class="hamburger" src="images/charm_menu-hamburger.png" width="40" height="40" alt="menu">
+                        </li>
+                        <li> 
+                            <a href="pages/menu.html">Menu</a>
+                        </li>
+                        <li> 
+                            <a href="#" class="item">Team</a>
+                        </li>
+                    </ul>
+                    <div class="logo">
+                        Cibo gustos
+                    </div>
+                    <ul class="sub-menu">
+                        <li> 
+                            <a href="pages/menu.html">Events</a>
+                        </li>
+                        <li> 
+                            <a href="pages/contact.html">Contact</a>
+                        </li>
+                        <li> 
+                            <a href="#">EN</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <ul>
-                <li> 
-                    <a href="pages/menu.html">Events</a>
-                </li>
-                <li> 
-                    <a href="pages/contact.html">Contact</a>
-                </li>
-                <li> 
-                    <a href="#">EN</a>
-                </li>
-            </ul>
          </nav>
 
          <header>
-                <h1>Made by Italians. Enjoyed by Everyone.</h1>
+            <div class="container">
+                <div class="main">
+                    <h1>Made by Italians. Enjoyed by Everyone.</h1>
+                </div>
+            </div>
          </header>
 
          <section>
+            <div class="quemsomos">
+                <h2>Who are we?</h2>
+            </div>
+
+            <div class="quemsomos">
+                <p class="oswald">
+                    Vulputate in elit tincidunt elit scelerisque massa fusce pharetra. Sagittis gravida lacus quisque dictum non pretium suspendisse porttitor. Risus adipiscing semper ornare velit. Sagittis consequat luctus leo arcu. Aenean nunc accumsan id maecenas. Tortor urna cum platea vitae.
+                </p>
+                <a href="#" class="d"> Display</a>
+                <a href="#" class="d"> Display</a>
+            </div>
          </section>
 
          <section>
-
          </section>
 
          <footer>
@@ -51,4 +74,3 @@
          </footer>
     </body>
 </html>
-
